@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/stgary/chat-app-server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "helmet": "^4.1.0"
+    "helmet": "^4.1.0",
+    "http": "0.0.1-security",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
